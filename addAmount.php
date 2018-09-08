@@ -12,6 +12,7 @@ catch (PDOException $e)
 {
 	echo "Wrong" . $e->getMessage();
 }
+// еще тестик)
 
 if(isset($_POST['output']))
 {
