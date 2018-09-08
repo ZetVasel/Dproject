@@ -1,0 +1,72 @@
+body {
+    background-color: #533f03;
+
+}
+
+..container {
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+
+
+
+}
+
+#stat {
+    margin: 10px;
+    padding: 10px;
+}
+
+.#database{
+    background-image: url("../image/database.png");
+    height: 128px;
+    width: 128px;
+}
+
+#finance{
+     background-image: url("../image/finance.png");
+     height: 128px;
+     width: 128px;
+ }
+
+.#naire{
+    background-image: url("../image/naire.png");
+    height: 128px;
+    width: 128px;
+}
+
+#pres{
+    background-image: url("../image/pres.png");
+    height: 128px;
+    width: 128px;
+}
+
+.#card{
+    background-image: url("../image/card.png");
+    height: 128px;
+    width: 128px;
+}
+
+.#stat{
+    background-image: url("../image/stat.png");
+    height: 128px;
+    width: 128px;
+}
+
+#naire:hover p{
+    display: block;
+    background: rgba(0,0,0,0.5);
+
+}
+
+.p{
+    display: none;
+}

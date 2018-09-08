@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css//style_registration.css" rel="stylesheet">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <title>Registration</title>
+    </head>
+    <body>
+
+
+        <div class="container-fluid">
+
+
+        <form action="registrate.html" method="POST">
+
+            <div class="form-row">
+
+                <div class="form-group col-sm-5 ">
+                    <label>Имя</label>
+                    <input class="form-control" type="text" name="username" placeholder="Введите ваше имя">
+                    <small class="form-text text-center">примечание имя должно иметь следующий формат: имя_номер</small>
+                </div>
+
+                <div class="form-group col-sm-5">
+                    <label>Пароль</label>
+                    <input class="form-control" type="text" name="password" placeholder="Введите ваше пароль">
+                    <small class="form-text text-center">примечание пароль может состоять как из букв так и из цифр</small>
+                </div>
+
+            </div>
+                    <br>
+
+
+                <div class="btn-group col-md-3">
+                    <input class="btn btn-primary mr-sm-2" type="submit" name="create" value="Зарегистрироватся">
+                    <input class="btn btn-danger" type="reset">
+                </div>
+
+
+
+        </form>
+
+
+        </div>
+
+
+    </body>
+</html>

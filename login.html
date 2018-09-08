@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="widht=device-widht, initial-scale=1 shrink-to-fit=no">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style_login.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Login</title>
+</head>
+<body>
+
+        <div class="container-fluid">
+            <h3>Welcome</h3>
+        </div>
+
+
+
+           <form action="add.php" method="POST" >
+
+
+               <input type="text" class="form-control" name="username"  placeholder="Login">
+
+
+               <input  type="text" class="form-control" name="password" placeholder="Password">
+
+               <input type="submit" class="btn btn-primary" name="login">
+
+           </form>
+
+        <br>
+
+        <a class="a2" href="registrate.html"><h3>Регистация</h3></a>
+
+
+
+</body>
+</html>
+<!--<?php require_once 'controller/db_connection.php'?>-->
+
+<?php require 'add.php' ?>
