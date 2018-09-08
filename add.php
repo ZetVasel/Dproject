@@ -4,6 +4,8 @@ $username = 'root';
 $password = '';
 $dbname = 'baseDW';
 
+// вообще тестируем....
+
 try
 {
 	$conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
